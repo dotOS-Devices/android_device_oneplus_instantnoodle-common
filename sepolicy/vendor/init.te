@@ -1,1 +1,4 @@
 allow hal_hdcpkey_default param_block_device:blk_file rw_file_perms;
+allow init vendor_data_file:file lock;
+allow init hal_audio_default:binder call;
+allow init platform_app:binder call;

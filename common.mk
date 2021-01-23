@@ -214,7 +214,8 @@ PRODUCT_PACKAGES += \
     init.qti.qcv.sh \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.oneplus.display.rc
 
 # Component overrides
 PRODUCT_COPY_FILES += \

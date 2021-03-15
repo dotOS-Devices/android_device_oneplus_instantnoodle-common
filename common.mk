@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/oneplus/sm8250-common/sm8250-common-vendor.mk)
+$(call inherit-product, vendor/oneplus/instantnoodle-common/instantnoodle-common-vendor.mk)
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \

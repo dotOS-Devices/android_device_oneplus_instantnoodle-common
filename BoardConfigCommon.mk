@@ -18,7 +18,7 @@ BUILD_BROKEN_DUP_RULES := true
 
 BOARD_VENDOR := oneplus
 
-COMMON_PATH := device/oneplus/sm8250-common
+COMMON_PATH := device/oneplus/instantnoodle-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
@@ -54,7 +54,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 NEED_KERNEL_MODULE_SYSTEM := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc OEM_TARGET_PRODUCT=$(PRODUCT_DEVICE)
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/oneplus/sm8250
+TARGET_KERNEL_SOURCE := kernel/oneplus/instantnoodle
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig
 
